@@ -1,5 +1,5 @@
 html {
-  background: url(./background.jpg) no-repeat center center fixed;
+  background: url(../src/images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,7 +15,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+body {
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

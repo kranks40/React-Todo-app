@@ -5,9 +5,9 @@
 }
 
 .App .title {
-  font-size: 5rem;
+  font-size: 80px;
   padding: 0px 20px 0px 20px;
-  background-color: rgb(242, 255, 123);
+  background-color: #ffff00;
   border-radius: 10px;
   border: 2px solid black;
   align-self: center;
