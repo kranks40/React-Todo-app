@@ -28,13 +28,13 @@ function TodoApp() {
   };
 
   const deleteHandler = (e, id) => {
-    // e.preventDefault();
+    e.preventDefault();
     //to delete a task use setTaskList where for each task id must not be equal to the task you want to delete, by using the filter method.
     setTaskList(taskList.filter((t) => t.id !== id));
   };
 
   const completedHandler = (e, id) => {
-    // e.preventDefault();
+   e.preventDefault();
     //find index of element
     const element = taskList.findIndex((elem) => elem.id === id);
 
